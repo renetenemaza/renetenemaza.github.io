@@ -1,0 +1,45 @@
+/* CSS Document */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#00FF33;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color:#000000;
+  text-decoration: none;
+  padding: 30px 20px;
+}
+
+.nav-links a:hover {
+  background-color:#009900;
+  border-radius: 5px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
